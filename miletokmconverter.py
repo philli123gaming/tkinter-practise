@@ -2,7 +2,7 @@ import tkinter as tk
 #from tkinter import ttk
 import ttkbootstrap as ttk #ttkbootstrap is essentially an extended module with more design features and simplified functions
 
-def convertget():
+def convertget(): # some widgets don't have get methods
     try:
         mile_input = int(entry1.get())
         km_output = mile_input*1.61
