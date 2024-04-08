@@ -30,7 +30,7 @@ title_label.pack()
 #input field
 input_frame1 = ttk.Frame(master=window)
 entry1 = ttk.Entry(master=input_frame1)
-button1 = ttk.Button(master=input_frame1, text= "convert using get.()",command= convertget)
+button1 = ttk.Button(master=input_frame1, text= "convert using get",command= convertget)
 entry1.pack(side="left")
 button1.pack(side="left", padx=10)
 input_frame1.pack(pady = 20)

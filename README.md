@@ -8,3 +8,5 @@ to make an input filed I would need a input filed next to a button and both need
 label = text element
 when creating the widget is when I set stuff like its value text and master but i think that when itsds packed it controls stuff like formating and geometry
 when packing 
+
+if I want to use function with argument  I should use lambda with the function inside the lambda function
